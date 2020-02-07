@@ -1,0 +1,54 @@
+{
+  "name": "urgency",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start --port 8082",
+    "debug": "adb reverse tcp:8082 tcp:8082",
+    "test": "jest",
+    "lint": "eslint .",
+    "apk": "react-native run-android --variant=release"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.7.1",
+    "@react-native-community/masked-view": "^0.1.5",
+    "date-fns": "^2.9.0",
+    "prop-types": "^15.7.2",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "react-native-geocoding": "^0.4.0",
+    "react-native-geolocation-service": "^3.1.0",
+    "react-native-gesture-handler": "^1.5.3",
+    "react-native-maps": "0.26.1",
+    "react-native-reanimated": "^1.4.0",
+    "react-native-safe-area-context": "^0.6.2",
+    "react-native-screens": "^2.0.0-alpha.23",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.0.10",
+    "react-navigation-drawer": "^2.3.3",
+    "react-navigation-stack": "^2.0.13",
+    "react-redux": "^7.1.3",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/runtime": "^7.7.7",
+    "@react-native-community/eslint-config": "^0.0.6",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.8.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.4",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts"
+    ]
+  }
+}
