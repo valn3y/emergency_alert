@@ -1,79 +1,81 @@
-import { StyleSheet } from 'react-native'
-import colors from '../../config/colors'
+import {StyleSheet} from 'react-native';
+import colors from '../../config/colors';
 
 const signupStyle = StyleSheet.create({
-    main: {
-        flex: 1,
-        width: '100%',
-        justifyContent: 'center',
-        alignItems: 'center'
-    },
-    title: {
-        fontFamily: 'Raleway-Bold',
-        textAlign: 'center',
-        color: colors.secondColorTheme,
-        fontSize: 18,
-        marginBottom: 90
-    },
-    campTitle: {
-        width: '80%',
-        justifyContent: 'center',
-        alignItems: 'flex-start',
-        marginBottom: 6
-    },
-    infoTitle: {
-        fontFamily: 'Raleway-Bold',
-        color: colors.secondColorTheme,
-        fontSize: 17.5
-    },
-    inputTitle: {
-        width: '100%',
-        justifyContent: 'center',
-        alignItems: 'center',
-        marginBottom: 12
-    },
-    contentInputTitle: {
-        width: '80%',
-        justifyContent: 'flex-start',
-        alignItems: 'flex-start',
-        color: colors.mainColorTheme,
-        borderRadius: 7,
-        backgroundColor: colors.orangeLight,
-        fontFamily: 'Raleway-Regular',
-        fontSize: 15
-    },
-    inputActivity: {
-        width: '100%',
-        height: '40%',
-        justifyContent: 'center',
-        alignItems: 'center',
-        marginBottom: 50
-    },
-    contentInputActivity: {
-        width: '80%',
-        height: '100%',
-        borderRadius: 7,
-        justifyContent: 'flex-start',
-        alignItems: 'flex-start',
-        backgroundColor: colors.orangeLight,
-        fontFamily: 'Raleway-Regular',
-        fontSize: 15,
-        color: colors.mainColorTheme,
-        textAlignVertical: 'top'
-    },
-    button: {
-        width: '100%',
-        height: 50,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: colors.secondColorTheme
-    },
-    textButton: {
-        fontFamily: 'Raleway-Bold',
-        color: colors.white,
-        fontSize: 15,
-        letterSpacing: 3.5
-    }
-})
+  main: {
+    flex: 1,
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  title: {
+    paddingHorizontal: 20,
+    fontFamily: 'Raleway-Bold',
+    textAlign: 'center',
+    color: colors.blueTheme.secondColor,
+    fontSize: 25,
+    marginBottom: 90,
+  },
+  campTitle: {
+    width: '80%',
+    justifyContent: 'center',
+    alignItems: 'flex-start',
+    marginBottom: 6,
+  },
+  infoTitle: {
+    fontFamily: 'Raleway-Bold',
+    color: colors.blueTheme.secondColor,
+    fontSize: 17.5,
+  },
+  inputTitle: {
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 12,
+  },
+  contentInputTitle: {
+    width: '80%',
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start',
+    color: colors.blueTheme.white,
+    borderRadius: 7,
+    backgroundColor: colors.blueTheme.light,
+    fontFamily: 'Rubik-Medium',
+    fontSize: 25,
+  },
+  inputActivity: {
+    width: '100%',
+    height: '40%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 50,
+  },
+  contentInputActivity: {
+    width: '80%',
+    height: '100%',
+    borderRadius: 7,
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start',
+    backgroundColor: colors.blueTheme.light,
+    fontFamily: 'Rubik-Regular',
+    fontSize: 25,
+    color: colors.blueTheme.white,
+    textAlignVertical: 'top',
+  },
+  button: {
+    width: '80%',
+    height: 50,
+    borderRadius: 8,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: colors.blueTheme.secondColor,
+  },
+  textButton: {
+    fontFamily: 'Raleway-Bold',
+    color: colors.blueTheme.white,
+    fontSize: 20,
+    letterSpacing: 3.5,
+  },
+});
 
-export default signupStyle
+export default signupStyle;

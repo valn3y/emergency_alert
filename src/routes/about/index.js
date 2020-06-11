@@ -1,27 +1,37 @@
-import React from 'react'
-import { View, Text, TouchableOpacity } from 'react-native'
-import aboutStyle from './style'
-import Icon from 'react-native-vector-icons/Entypo'
-import colors from '../../config/colors'
+import React from 'react';
+import {View, Text} from 'react-native';
+import aboutStyle from './style';
+import ButtonDrawer from '../../components/buttonDrawer';
+import Icon from 'react-native-vector-icons/FontAwesome5';
+import colors from '../../config/colors';
 
-export default class About extends React.Component {
-    render() {
-        return (
-            <View style={aboutStyle.main} >
-                <Text style={aboutStyle.text}>{'Desafio Defesa Civil'}</Text>
-                <Text style={[aboutStyle.text, { fontSize: 20 }]}>{'Contato: (92) 3872-0950'}</Text>
+const About = props => {
+  function handleOpenDrawer() {
+    props.navigation.toggleDrawer();
+  }
 
-                <View style={{ position: 'absolute', top: 5, left: 5 }}>
-                    <TouchableOpacity
-                        onPress={() => this.props.navigation.toggleDrawer()}
-                    >
-                        <Icon
-                            name={'menu'}
-                            color={colors.secondColorTheme}
-                            size={30} />
-                    </TouchableOpacity>
-                </View>
-            </View>
-        )
-    }
-}
+  return (
+    <View style={aboutStyle.main}>
+      <ButtonDrawer
+        colorButton={colors.blueTheme.white}
+        onPress={handleOpenDrawer}
+      />
+
+      <Icon
+        name="exclamation-triangle"
+        color={colors.blueTheme.white}
+        size={80}
+      />
+      <Text style={aboutStyle.textTitle}>
+        Aplicativo para alerta de áreas de risco
+      </Text>
+      <Text style={aboutStyle.textDescription}>
+        Seja VOCÊ também um desenvolvedor, e ajude as pessoas.
+      </Text>
+
+      <Text style={aboutStyle.textMade}>Desenvolvido por Valney Marinho</Text>
+    </View>
+  );
+};
+
+export default About;
