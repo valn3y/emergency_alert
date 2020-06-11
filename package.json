@@ -5,11 +5,9 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "start": "react-native start --port 8082",
-    "debug": "adb reverse tcp:8082 tcp:8082",
+    "start": "react-native start",
     "test": "jest",
-    "lint": "eslint .",
-    "apk": "react-native run-android --variant=release"
+    "lint": "node_modules/.bin/eslint src/"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.7.1",
