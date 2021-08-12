@@ -4,6 +4,7 @@ import colors from '../../config/colors';
 const ocurrenceStyle = StyleSheet.create({
   main: {
     flex: 1,
+    width: '100%',
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -21,9 +22,13 @@ const ocurrenceStyle = StyleSheet.create({
   },
   flatListStyle: {
     width: '100%',
+  },
+  contentFlatList: {
+    width: '90%',
     paddingHorizontal: 20,
   },
   itemFlatlist: {
+    width: '100%',
     backgroundColor: '#EEE',
     marginTop: 10,
     padding: 20,

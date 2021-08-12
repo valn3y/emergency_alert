@@ -58,6 +58,7 @@ class Ocurrences extends React.Component {
 
   componentDidMount = async () => {
     let data = await search();
+    console.log('DATA', data)
     if (data) {
       this.props.allData(data);
     }
@@ -159,7 +160,9 @@ class Ocurrences extends React.Component {
         <Text style={ocurrenceStyle.title}>{'Lista de ocorrências'}</Text>
 
         <FlatList
-          contentContainerStyle={ocurrenceStyle.flatListStyle}
+          style={ocurrenceStyle.flatListStyle}
+          contentContainerStyle={ocurrenceStyle.contentFlatList}
+          showsVerticalScrollIndicator={false}
           data={this.props.datas}
           keyExtractor={(item, index) => `${index}`}
           renderItem={this.renderItem}
