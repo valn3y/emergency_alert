@@ -1,7 +1,7 @@
-# Alerta de Emergência
+# Emergency Alert
 
 <p align="center">
-    <a href="README_en.md">Inglês</a>&nbsp;&nbsp;&nbsp;
+    <a href="README.md">Portuguese</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 ## Screenshots App Mobile
