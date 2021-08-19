@@ -17,7 +17,7 @@
 
 Aplicação desenvolvida com objetivo de pôr em prática os estudos de React Native
 
-## Tecnologia Utilizada
+## Tecnologias Utilizadas
 
 <a href="https://reactnative.dev/"><img alt="ReactNative" src="https://img.shields.io/badge/React_Native-05122A?style=for-the-badge&logo=react"/></a> &nbsp;
 <a href="https://redux.js.org/"><img alt="Redux" src="https://img.shields.io/badge/Redux-05122A?style=for-the-badge&logo=redux"/></a> &nbsp;
