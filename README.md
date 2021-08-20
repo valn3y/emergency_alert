@@ -1,7 +1,7 @@
 # Emergency Alert
 
 <p align="center">
-    <a href="README.md">Portuguese</a>&nbsp;&nbsp;&nbsp;
+    <a href="README_pt.md">Portuguese</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 ## Screenshots App Mobile
@@ -15,7 +15,8 @@
 
 ## About
 
-Application developed with the aim of putting into practice the knowledge of React Native.
+An application for managing registered risk areas.
+This application was developed with the aim of putting into practice the knowledge of React Native.
 
 ## Tecnologies used
 

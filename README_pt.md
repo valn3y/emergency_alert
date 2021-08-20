@@ -15,7 +15,8 @@
 
 ## Sobre
 
-Aplicação desenvolvida com objetivo de pôr em prática os estudos de React Native
+Uma aplicação para adminitrar áreas de riscos cadastradas.
+Esta Aplicação foi desenvolvida com objetivo de pôr em prática os estudos de React Native
 
 ## Tecnologias Utilizadas
 
